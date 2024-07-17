@@ -1,6 +1,5 @@
-For running this webiste code, run the following commands
+For running this website code, run the following commands
 
 git clone ""
-Open index.html in you local host
+Open index-bk.html in you local host
 
-kmk

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Information Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function addStudentDetails() {
+            const container = document.getElementById('students-details-container');
+            const studentDetailsDiv = document.createElement('div');
+            studentDetailsDiv.className = 'student-details';
+            studentDetailsDiv.innerHTML = `
+                <input type="text" name="student-name" placeholder="Name" required>
+                <input type="text" name="student-class" placeholder="Class" required>
+                <input type="text" name="student-branch" placeholder="Branch" required>
+            `;
+            container.appendChild(studentDetailsDiv);
+        }
+    </script>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Project Information Form</h1>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="project-title">Title of Project:</label></td>
+                    <td><input type="text" id="project-title" name="project-title" required></td>
+                </tr>
+                <tr>
+                    <td><label for="project-type">Type of Project:</label></td>
+                    <td>
+                        <select id="project-type" name="project-type" required>
+                            <option value="research">Research</option>
+                            <option value="development">Development</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="faculty-type">Faculty:</label></td>
+                    <td>
+                        <select id="faculty-type" name="faculty-type" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="students-details">Details of Students:</label></td>
+                    <td>
+                        <div id="students-details-container">
+                            <div class="student-details">
+                                <input type="text" name="student-name" placeholder="Name" required>
+                                <input type="text" name="student-class" placeholder="Class" required>
+                                <input type="text" name="student-branch" placeholder="Branch" required>
+                            </div>
+                        </div>
+                        <button type="button" onclick="addStudentDetails()">Add More</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="support-type">Type of Support Required:</label></td>
+                    <td>
+                        <select id="support-type" name="support-type" required>
+                            <option value="material">Material</option>
+                            <option value="machine">Machine</option>
+                            <option value="both">Both</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="project-duration">Duration of Project:</label></td>
+                    <td>
+                        <select id="project-duration" name="project-duration" required>
+                            <option value="Semester">Semester</option>
+                            <option value="Full-Year">Full-Year</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="other-information">Other Information:</label></td>
+                    <td><textarea id="other-information" name="other-information" rows="4" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="submit-row">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

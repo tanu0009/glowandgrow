@@ -1,8 +1,9 @@
 
 
 # **Glow & Grow**
+
 ---
-## **Contents**
+### **Contents**
 - [Introduction](#Introduction)
 - [Key Highlights](#Key Highlights)
 - [Skin Care Section](#Skin Care Section)
@@ -12,16 +13,16 @@
 - [Tools Used](#Tools Used)
 - [Survey Analysis](#Survey Analysis)
 - [Graphical User Interface](#Graphical User Interface)
-- [Licence](#Licence)
+- [License](#Licence)
 - [References](#References)
 
 ---
 
-# **Introduction**
+### **Introduction
 **Glow & Grow** is a web platform offering personalized Ayurvedic hair and skin care solutions. The project aims to empower users with detailed product information, personalized recommendations, and holistic wellness resources.
 ---
 
-# **Key Highlights:**
+### **Key Highlights**
 - **Personalized Care:** Gender- and age-specific product recommendations.
 - **Informative Content:** Blogs and articles on skincare and haircare practices.
 - **User-Friendly Design:** Clean, responsive, and easy-to-navigate UI.
@@ -29,28 +30,28 @@
 ---
 
 
-# **Skin Care Section:**
+### **Skin Care Section**
 - List of common skin problems like acne, dryness, psoriasis, etc.
 - Curated product recommendations for specific skin concerns.
 ---
 
-# **Hair Care Section:**
+### **Hair Care Section**
 - List of common hair problems like hair loss, dandruff, and scalp irritation.
 - Product recommendations for targeted hair issues.
 ---
 
-# **Product Information:**
+### **Product Information**
 - Detailed descriptions and usage instructions.
 - Age and gender-specific Ayurvedic solutions.
 ---
 
-# **Tech Stack:**
+### **Tech Stack**
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
 - **Backend:** WAMP Server
 - **IDE:** VSCode
 ---
 
-# **Tools Used:**
+### **Tools Used**
 | Resource      | Specifications           | Quantity | Purpose                     |
 |---------------|-------------------------|----------|-----------------------------|
 | Laptop       | Intel Core i3, 4GB RAM  | 1        | Development & Documentation|
@@ -58,18 +59,18 @@
 | WAMP Server  | 64-bit                  | 1        | Running Local Server       |
 ---
 
-# **Survey Analysis:**
+### **Survey Analysis**
 We conducted a survey targeting students and local residents to gather insights into their daily routines and skincare habits. The survey results were instrumental in understanding customer needs and preferences.
 ---
 
-# **Graphical User Interface : **
+### **Graphical User Interface **
 Our platform has a clean, user-friendly interface focusing on:
 - Easy navigation between skin and hair care sections.
 - Clear product categorization and search filters.
 ---
 bash
 
-# **How to Run the Project: **
+### **How to Run the Project **
 1. Clone the repository:
    ```bash
    git clone <repository-url>
@@ -80,11 +81,11 @@ bash
 bash
 ---
 
-# **License:**
+###**License**
 This project is licensed under the MIT License.
 ---
 
-# **References:**
+### **References**
 - Shankara
 - Kama Ayurveda
 - Cureveda

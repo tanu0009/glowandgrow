@@ -2,7 +2,20 @@
 
 # **Glow & Grow**
 ---
-## Overview
+## **Contents**
+- [Introduction](#Introduction)
+- [Key Highlights](#Key Highlights)
+- [Skin Care Section](#Skin Care Section)
+- [Hair Care Section](#Hair Care Section)
+- [Product Information](#Product Information)
+- [Tech Stacks](#Tech Stacks)
+- [Tools Used](#Tools Used)
+- [Survey Analysis](#Survey Analysis)
+- [Graphical User Interface](#Graphical User Interface)
+- [Licence](#Licence)
+- [References](#References)
+
+# **Introduction**
 **Glow & Grow** is a web platform offering personalized Ayurvedic hair and skin care solutions. The project aims to empower users with detailed product information, personalized recommendations, and holistic wellness resources.
 ---
 
@@ -29,10 +42,6 @@
 - Age and gender-specific Ayurvedic solutions.
 ---
 
-# **Educational Resources:**
-- Blogs and articles on scalp massage techniques, dietary habits, and holistic wellness.
----
-
 # **Tech Stack:**
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
 - **Backend:** WAMP Server
@@ -51,11 +60,12 @@
 We conducted a survey targeting students and local residents to gather insights into their daily routines and skincare habits. The survey results were instrumental in understanding customer needs and preferences.
 ---
 
-# **Graphical User Interface (GUI): **
+# **Graphical User Interface : **
 Our platform has a clean, user-friendly interface focusing on:
 - Easy navigation between skin and hair care sections.
 - Clear product categorization and search filters.
 ---
+bash
 
 # **How to Run the Project: **
 1. Clone the repository:
@@ -65,6 +75,7 @@ Our platform has a clean, user-friendly interface focusing on:
 2. Open the project in VSCode.
 3. Run WAMP Server and ensure the server is active.
 4. Open the project folder in the browser using localhost.
+bash
 ---
 
 # **License:**

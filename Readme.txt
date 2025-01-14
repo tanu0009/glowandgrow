@@ -1,6 +1,6 @@
 
 
-# **Glow & Grow**
+### **Glow & Grow**
 
 ---
 ### **Contents**
@@ -89,7 +89,6 @@ This project is licensed under the MIT License.
 - Shankara
 - Kama Ayurveda
 - Cureveda
-
 - Kapiva
 
 

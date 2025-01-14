@@ -15,6 +15,8 @@
 - [Licence](#Licence)
 - [References](#References)
 
+---
+
 # **Introduction**
 **Glow & Grow** is a web platform offering personalized Ayurvedic hair and skin care solutions. The project aims to empower users with detailed product information, personalized recommendations, and holistic wellness resources.
 ---
